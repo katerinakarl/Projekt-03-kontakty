@@ -8,3 +8,58 @@ body {
 }
 
 /* ---------------------------------------------------- */
+
+.header{
+text-align: center;
+}
+
+.tym{
+display:flex;
+flex-direction:column;
+align-self: center;
+border: solid 1px white;
+}
+
+.profil{
+display: flex;
+flex-direction: column;
+text-align: justify;
+border: solid 1px black;
+padding: 20px;
+margin: 20px;
+flex-wrap: wrap;
+}
+
+.popis{
+display: flex;
+flex-direction: column;
+text-align: center;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+.foto{
+align-self: center;
+border-radius: 50%;
+border: black;
+}
+
+.Jarmila{
+flex-grow: 1;
+flex-shrink: 1;
+}
+
+.Klotylda{
+flex-grow: 1;
+flex-shrink: 1;
+}
+
+.Lucie{
+flex-grow: 1;
+flex-shrink: 1;
+}
+
+.Emílie{
+flex-grow: 1;
+flex-shrink: 1;
+}
