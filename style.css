@@ -9,6 +9,21 @@ body {
 
 /* ---------------------------------------------------- */
 
+
+@media (min-width: 960px){
+	.tym {
+	display:flex;
+	flex-direction: row;
+	}
+}
+	
+@media (min-width: 540px) and (max-width: 960px) {
+	.tym {
+	flex-direction: row;
+	flex: 1 1 50
+	}
+}
+
 .header{
 text-align: center;
 }
