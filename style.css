@@ -9,21 +9,6 @@ body {
 
 /* ---------------------------------------------------- */
 
-
-@media (min-width: 960px){
-	.tym {
-	display:flex;
-	flex-direction: row;
-	}
-}
-	
-@media (min-width: 540px) and (max-width: 960px) {
-	.tym {
-	flex-direction: row;
-	flex: 1 1 50
-	}
-}
-
 .header{
 text-align: center;
 }
@@ -78,3 +63,24 @@ flex-shrink: 1;
 flex-grow: 1;
 flex-shrink: 1;
 }
+
+@media (max-width: 539px){
+	.tym {
+	flex-direction: column;
+	}
+}
+
+
+@media (min-width: 960px){
+	.tym {
+	flex-direction: row;
+	}
+}
+	
+@media only screen 
+  and (min-width: 540px) and (max-width: 959px) {
+  .tym {
+	flex-wrap: wrap;
+	flex-basis: 25%;
+	}
+} 
