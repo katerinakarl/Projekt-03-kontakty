@@ -64,23 +64,15 @@ flex-grow: 1;
 flex-shrink: 1;
 }
 
-@media (max-width: 539px){
-	.tym {
-	flex-direction: column;
-	}
-}
-
-
 @media (min-width: 960px){
-	.tym {
-	flex-direction: row;
+.tym {
+flex-direction: row;
 	}
 }
 	
-@media only screen 
-  and (min-width: 540px) and (max-width: 959px) {
-  .tym {
-	flex-wrap: wrap;
-	flex-basis: 25%;
-	}
-} 
+@media (min-width: 540px) and (max-width: 959px) {
+.tym {
+flex-wrap: wrap;
+flex-basis: 50%;
+	}	 
+}
